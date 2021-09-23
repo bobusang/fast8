@@ -1,11 +1,11 @@
-import MainPage from './components/MainPage';
-import SideMenu from './components/SideMenu';
-import logo from './logo.svg';
+import React, {useState} from 'react';
+import Navigation from './components/Navigation';
 
-function App() {
+const App =()=> {
+
   return (
-    <div className="">
-      <SideMenu/>
+    <div >
+        <Navigation />
     </div>
   );
 }
