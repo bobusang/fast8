@@ -1,7 +1,6 @@
 import React from "react";
 
 function PersonelCard(props) {
-  console.log("yaitu", props.data);
   return (
     <div>
       <div className="mt-4 p-4 bg-white rounded-xl">
@@ -14,15 +13,15 @@ function PersonelCard(props) {
           <button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-8 w-8"
+              className="h-8 w-8"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M8 12h.01M12 12h.01M16 12h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>

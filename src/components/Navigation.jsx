@@ -11,8 +11,8 @@ function Navigation() {
 
   return (
     <div>
-      <main class="flex flex-col h-screen">
-        <div class="flex flex-1 overflow-hidden">
+      <main className="flex flex-col h-screen">
+        <div className="flex flex-1 overflow-hidden">
           {/* SideNav */}
           <div
             className={`${
@@ -59,7 +59,7 @@ function Navigation() {
                 <div className="flex cursor-pointer items-center p-2 hover:bg-blue-100 hover:opacity-100 hover:text-green-600 rounded-xl opacity-50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 mr-2"
+                    className="h-5 w-5 mr-2"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -70,14 +70,14 @@ function Navigation() {
                 <div className="flex cursor-pointer items-center p-2 hover:bg-blue-100 hover:opacity-100 hover:text-green-600 rounded-xl opacity-50">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5 mr-2"
+                    className="h-5 w-5 mr-2"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                   Daily Attendance
@@ -87,7 +87,7 @@ function Navigation() {
           </div>
 
           {/* Header */}
-          <div class="flex flex-1 flex-col">
+          <div className="flex flex-1 flex-col">
             <div className="flex items-center w-full bg-white shadow-lg h-20 px-4">
               <button className="md:hidden" onClick={handleClick}>
                 <svg
@@ -126,7 +126,7 @@ function Navigation() {
 
             <div className="flex flex-1 overflow-y-auto">
               {/* Contents */}
-              <PersonelList />
+              <PersonelList key={"index"} />
             </div>
           </div>
         </div>

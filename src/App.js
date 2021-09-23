@@ -1,13 +1,12 @@
-import React, {useState} from 'react';
-import Navigation from './components/Navigation';
+import React from "react";
+import Navigation from "./components/Navigation";
 
-const App =()=> {
-
+const App = () => {
   return (
-    <div >
-        <Navigation />
+    <div>
+      <Navigation />
     </div>
   );
-}
+};
 
 export default App;
